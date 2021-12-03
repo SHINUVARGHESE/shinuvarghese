@@ -29,13 +29,6 @@ if ($registrationForm.length) {
                 customEmail: true
             },
 
-            mobile: {
-                required: true,
-                maxlength: 10,
-                numeric: true,
-                noSpace: true
-            },
-
             content: {
                 required: true
             }
@@ -49,10 +42,6 @@ if ($registrationForm.length) {
                 required: 'Please Enter Your Email Id',
                 //error message for the email field
                 mail: 'Please Enter Valid Email Id'
-            },
-
-            mobile: {
-                required: 'Please Enter  Your Phone Number'
             },
 
             content: {
